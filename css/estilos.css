@@ -1,0 +1,98 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+
+/*Cabecera*/
+.contenedor{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    
+}
+
+.contenedor .titulo{
+    width: 10%;
+    border: 0px solid red;
+    align-content: center;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: green;
+}
+
+.contenedor .titulo .logo{
+    border: 0px solid red;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 50px;
+    margin-left: 2px;
+}
+
+.contenedor .detalles{
+    width: 50%;
+    padding: 15px;
+    font-size: 16px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.detalles .caja{
+    border: 0px solid skyblue;
+    margin: 2px;
+}
+
+.titulo-table{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background: green;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+}
+
+.contenedor-all{
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.contenedor-all table{
+    width: 100%;
+    border: 0px solid red;
+    padding: 10px;
+}
+.contenedor-all table tr{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid green;
+    text-align: center;
+    align-content: center;
+}
+
+.contenedor-all table tr th{
+    border-bottom: 1px solid black; 
+}
+
+.footer{
+    text-align: center;
+    padding: 5px;
+    color: gray
+}
